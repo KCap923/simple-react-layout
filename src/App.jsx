@@ -16,7 +16,11 @@ function App() {
 
   return (
     <>
-    
+      <Header />
+      <Content color="blue" text="This is NOT my first React Application!" />
+      <Content color="red" text="Still wish me luck..." />
+      <Content color="green" text="I got this!!!" />
+      <Footer />
     </>
   );
 }
